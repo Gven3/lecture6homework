@@ -1,0 +1,85 @@
+/* Style the HTML elements according to the following instructions. 
+DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS! */
+
+h2 {
+  color: purple;
+}
+
+body {
+  background-color: #bdc3c7;
+}
+
+h1 {
+  color: #9b59b6;
+}
+
+h2 {
+  color: orange;
+}
+
+li {
+  color: #0000ff;
+}
+
+p {
+  background-color: yellow;
+}
+
+input {
+  border: 3px red solid;
+}
+
+.hello {
+  background-color: white;
+}
+
+#special {
+  border: 2px rgb(31, 31, 186) solid;
+}
+
+div > p {
+  font-size: 25px;
+}
+
+[type=text] {
+  background-color: gray;
+}
+
+div+div+div {
+  background-color: palevioletred;
+}
+
+div+div+div > p {
+  background-color: pink;
+}
+
+div+div+div > p+p {
+  border: 5px white solid;
+}
+
+div+div+div > p > em {
+  color: white;
+  font-size: 20px;
+}
+
+
+input:checked {
+  margin-left: 50px;
+}
+
+label {
+  text-transform: uppercase;
+}
+
+#special::first-letter {
+  color: green;
+  font-size: 100px;
+}
+
+h1:hover {
+  color: #0000ff;
+}
+
+a:visited {
+  color: gray;
+}
